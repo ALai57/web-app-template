@@ -2,6 +2,26 @@
 
 A Leiningen template for a re-frame web app, shadow-cljs build and storybook
 
+## Usage
+
+Run the command below to create a new template app
+```
+lein new org.clojars.alai57/web-app <YOUR-APP-NAME>
+```
+
+Install all dependencies
+```
+cd <YOUR-APP-NAME>
+npm install
+```
+
+Start development mode!
+```
+npm run watch
+npm run storybook
+```
+
+
 ## License
 
 Copyright © 2022 FIXME

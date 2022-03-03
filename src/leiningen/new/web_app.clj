@@ -49,4 +49,7 @@
                   ["src/{{sanitized}}/stories/components/secondary_button_stories.cljs" (render "src/stories/components/secondary_button_stories.cljs" data)]
                   ["src/{{sanitized}}/stories/components/side_menu_stories.cljs" (render "src/stories/components/side_menu_stories.cljs" data)]
                   ["src/{{sanitized}}/stories/components/thumbnail_stories.cljs" (render "src/stories/components/thumbnail_stories.cljs" data)]
+
+                  ;; Resources
+                  ["resources/public/index.html" (render "resources/public/index.html" data)]
                   )))

@@ -11,3 +11,8 @@
  (fn [_ _]
    default-db))
 
+(defn set-active-panel [db [_ value]]
+  (merge db {:active-panel value}))
+(reg-event-db
+ :set-active-panel
+ set-active-panel)

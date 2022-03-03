@@ -16,7 +16,7 @@
                   ["README.md" (render "README.md" data)]
 
                   ;; Storybook
-                  [".storybook/.babelrc" (render ".storybook/.babelrc" data)]
+                  [".storybook/.babelrc" (render ".storybook/babelrc" data)]
                   [".storybook/main.js" (render ".storybook/main.js" data)]
                   [".storybook/manager.js" (render ".storybook/manager.js" data)]
                   [".storybook/preview-body.html" (render ".storybook/preview-body.html" data)]

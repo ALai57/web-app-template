@@ -5,7 +5,6 @@
               [re-frame.core :refer [dispatch dispatch-sync]]
               [secretary.core :as secretary]
               [{{name}}.events.core] ;; required to make the compiler
-              [{{name}}.events.projects-portfolio]
               [{{name}}.subs]   ;; load them (see docs/App-Structure.md)
               [{{name}}.views]
               ;;[devtools.core :as devtools]

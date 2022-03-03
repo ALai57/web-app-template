@@ -8,7 +8,7 @@
               [{{name}}.subs]   ;; load them (see docs/App-Structure.md)
               [{{name}}.views]
               ;;[devtools.core :as devtools]
-              [keycloak-js :as keycloak-js])
+              )
     (:import [goog History]
              [goog.history EventType]))
 

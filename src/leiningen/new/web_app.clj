@@ -27,6 +27,7 @@
                   ["src/{{sanitized}}/core.cljs" (render "src/core.cljs" data)]
                   ["src/{{sanitized}}/subs.cljs" (render "src/subs.cljs" data)]
                   ["src/{{sanitized}}/db.cljs" (render "src/db.cljs" data)]
+                  ["src/{{sanitized}}/views.cljs" (render "src/views.cljs" data)]
 
                   ;; re-frame events
                   ["src/{{sanitized}}/events/core.cljs" (render "src/events/core.cljs" data)]

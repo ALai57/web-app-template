@@ -24,7 +24,7 @@
     "@mui/material": "5.0.0",
     "react": "17.0.2",
     "react-bootstrap": "1.0.0-beta.14",
-    "react-dom": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "main": "index.js",
   "directories": {
@@ -41,5 +41,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "ISC"
 }
